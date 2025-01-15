@@ -281,7 +281,6 @@ Usage: python main.py add <task_name> (<task_description>)
         updated_at = time.strftime("%Y-%m-%d %H:%M:%S")
         update_task(task_id, task_name, updated_at)
         print("Task updated successfully. Task ID: ", task_id)
-
     
     if action == "delete":
         delete_task(task_id)
